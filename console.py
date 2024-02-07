@@ -4,6 +4,10 @@
 import cmd
 '''The cmd module'''
 
+my_classes = {'BaseModel': BaseModel, 'User': User, 'State': State,
+              'Amenity': Amenity, 'City': City,
+              'Place': Place, 'Review': Review)
+
 
 class HBNBCommand(cmd.Cmd):
     '''
@@ -34,6 +38,10 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         '''Function to override emptyline to prevent default activity.'''
         pass
+
+    def do_create(self, args):
+        '''Creates a new instance of BaseModel.'''
+        args = args.split()
 
 
 if __name__ == "__main__":
