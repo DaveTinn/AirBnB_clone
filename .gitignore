@@ -5,3 +5,11 @@ test_save_reload_base_model.py
 test_base_model_dict.py
 test_base_model.py
 test_save_reload_base_model.py
+test_base_model.py
+test_user.py
+test_place.py
+test_state.py
+test_review.py
+test_file_storage.py
+test_amenity.py
+tests
