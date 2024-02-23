@@ -10,14 +10,14 @@
 }
 
 .places > .places-container {
-	width: 1000;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
-.places .container > article {
+.places-container > article {
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
@@ -28,7 +28,7 @@
 	justify-content: center;
 }
 
-.places .container > article > h2 {
+.places-container > article > h2 {
 	font-size: 30px;
 	text-align: center;
 }
